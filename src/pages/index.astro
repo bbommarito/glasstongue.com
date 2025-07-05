@@ -1,16 +1,26 @@
 ---
-
+import Base from "../layouts/Base.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base>
+	<img src="/logo.png" alt="Glass Tongue Logo" class="logo" />
+
+	<div class="teaser">
+		a fracture in sound
+		<br />
+		nothing has dropped yet — but it’s coming
+	</div>
+
+	<div class="bio">
+		Glass Tongue is emotional brutality: poetic, guttural, surreal.
+		<br /><br />
+		Formed to answer the question no one asked:
+		<em>“What if Cannibal Corpse covered Owl City?”</em>
+	</div>
+
+	<footer>
+		📧 contact@glasstongue.com
+		<br />
+		© 2025 Glass Tongue — All rights shattered.
+	</footer>
+</Base>
