@@ -4,24 +4,28 @@ import logo from "../../public/logo.png";
 ---
 
 <Base>
-	<img src={logo.src} alt="Glass Tongue Logo" class="logo" />
+	<img
+		src={logo.src}
+		alt="Glass Tongue Logo"
+		class="w-4/5 max-w-sm mx-auto"
+	/>
 
-	<div class="teaser">
-		a fracture in sound
-		<br />
+	<div class="text-red-600 text-lg leading-snug">
+		a fracture in sound<br />
 		nothing has dropped yet — but it’s coming
 	</div>
 
-	<div class="bio">
-		Glass Tongue is emotional brutality: poetic, guttural, surreal.
-		<br /><br />
-		Formed to answer the question no one asked:
-		<em>“What if Cannibal Corpse covered Owl City?”</em>
+	<div class="text-gray-500 text-base space-y-4">
+		<p>Glass Tongue is emotional brutality: poetic, guttural, surreal.</p>
+		<p>
+			Formed to answer the question no one asked: <br
+				class="md:hidden"
+			/><em>“What if Cannibal Corpse covered Owl City?”</em>
+		</p>
 	</div>
 
-	<footer>
-		📧 contact@glasstongue.com
-		<br />
-		© 2025 Glass Tongue — All rights shattered.
+	<footer class="text-gray-500 text-sm">
+		<p>📧 contact@glasstongue.com</p>
+		<p>© 2025 Glass Tongue — All rights shattered.</p>
 	</footer>
 </Base>
